@@ -1,0 +1,78 @@
+:root {
+  --mainLight: #89aae6;
+  --mainDark: #0a1128;
+  --mainBlue: #266dd3;
+  --mainGray: #2c4251;
+}
+body {
+  background: var(--mainLight);
+  color: var(--mainDark);
+}
+.show-btn {
+  border-color: var(--mainBlue);
+  color: var(--mainBlue);
+  background: transparent;
+}
+.show-btn:hover {
+  background: var(--mainBlue);
+  color: var(--mainDark);
+}
+
+.question-card {
+  display: none;
+  position: relative;
+  background: transparent;
+  border-color: var(--mainBlue);
+}
+.feedback {
+  display: none;
+}
+
+textarea {
+  border-radius: 0.25rem;
+  border-color: var(--mainBlue);
+}
+.close-btn {
+  position: absolute;
+  top: 0;
+  right: 2%;
+  font-size: 2rem;
+  color: var(--mainBlue);
+  cursor: pointer;
+}
+.close-btn:hover {
+  color: var(--mainGray);
+}
+.submitBtn {
+  border: 0.2rem solid var(--mainBlue);
+  color: var(--mainDark);
+  background: transparent;
+}
+.submitBtn:hover {
+  background: var(--mainBlue);
+  color: var(--mainLight);
+}
+.edit-flashcard {
+  border: 0.2rem solid var(--mainBlue);
+  color: var(--mainDark);
+  background: transparent;
+}
+.edit-flashcard:hover {
+  background: var(--mainBlue);
+  color: var(--mainDark);
+}
+.delete-flashcard {
+  border: 0.2rem solid var(--mainBlue);
+  color: var(--mainBlue);
+  background: transparent;
+}
+.delete-flashcard:hover {
+  background: var(--mainBlue);
+  color: var(--mainDark);
+}
+.answer {
+  display: none;
+}
+.showItem {
+  display: block;
+}
